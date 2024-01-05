@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a2"
+    tools:context=".Activities.QuizResult">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+    <ImageView
+        android:id="@+id/congr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ass"
+        android:adjustViewBounds="true"
+        app:tint="@color/white" />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+         android:layout_marginBottom="100dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/prod"
+        android:adjustViewBounds="true"
+        app:tint="@color/white" />
+
+    <TextView
+
+        android:id="@+id/natijalar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Natija:"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startnewquiz"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Qaytatdan boshlash"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_green"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"/>
+
+
+</RelativeLayout>

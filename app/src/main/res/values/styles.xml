@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OptionButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">#1F6BB8</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:height">60dp</item>
+        <item name="fontFamily">@font/poppins</item>
+    </style>
+</resources>
